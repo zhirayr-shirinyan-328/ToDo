@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-
 }
 
 body {
@@ -15,7 +14,7 @@ body {
     background-color: white;
 }
 
-.part1 {
+.header {
     display: flex;
     padding: 14px 20px 12px 50px;
     justify-content:space-between;
@@ -27,17 +26,56 @@ body {
     height: 24px;
     justify-content:space-between;
     align-items: center;
-
-
 }
+
 .oval {
     width: 5px;
     height: 5px;
     background: dodgerblue;
     border-radius: 50%;
-
-
-
-
-
 }
+
+.list_item {
+    width: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 13px;
+}
+
+.big_disc {
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 50%;
+    border: 1.1px solid lightslategrey;
+}
+
+.small_disc {
+    width: 10px;
+    height: 10px;
+    background: #61DEA4;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: -0.02em;
+    margin-left: 15px;
+}
+
+.small_disc2 {
+    background-color: #B678FF;
+}
+
+.small_disc3 {
+    background-color: #F45E6D;
+}
+
+.small_disc4 {
+    background-color: #F45E6D;
+}
+
