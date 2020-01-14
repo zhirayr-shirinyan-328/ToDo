@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zhirayr-shirinyan-328/ToDo/issues"
   },
-  "homepage": "https://github.com/zhirayr-shirinyan-328/ToDo#readme"
+  "homepage": "https://github.com/zhirayr-shirinyan-328/ToDo#readme",
+  "dependencies": {
+    "static-server": "^2.2.1"
+  }
 }

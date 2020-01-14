@@ -1,81 +1,82 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
-
+html {
+    height: 100%;
+}
 body {
-    background-color: lavenderblush;
+    height: 100%;
+    background-color: #f2f2f2;
 }
 
 .main {
     margin: 0 auto;
     width: 375px;
-    height: 812px;
+    height: 100%;
     background-color: white;
 }
 
 .header {
     display: flex;
-    padding: 14px 20px 12px 50px;
+    padding: 16px 12px;
+    min-height: 73px;
     justify-content:space-between;
     align-items:center;
 }
-.ovals {
+.header-title {
+    text-indent: 48px;
+}
+.menu-icon-container {
     display: flex;
     width: 20px;
     height: 24px;
     justify-content:space-between;
     align-items: center;
+    cursor: pointer;
 }
-
 .oval {
     width: 5px;
     height: 5px;
     background: dodgerblue;
     border-radius: 50%;
 }
-
-.list_item {
-    width: auto;
+.todo-item {
+    width: 100%;
     display: flex;
-    position: relative;
+    justify-content: flex-start;
     align-items: center;
-    padding: 13px;
+    padding: 16px;
+    min-height: 60px;
 }
 
-.big_disc {
-    width: 22px;
-    height: 22px;
+.task-checkbox {
+    width: 24px;
+    height: 24px;
     background: white;
     border-radius: 50%;
-    border: 1.1px solid lightslategrey;
+    border: 2px solid #DADADA;
+}
+.task-checkbox.checked {
+    background: url(../icons/checked.svg);
+    background-position: center center;
+    background-size: 100%;
 }
 
-.small_disc {
+
+.task-category-indicator {
     width: 10px;
     height: 10px;
     background: #61DEA4;
     border-radius: 50%;
-    position: absolute;
-    right: 16px;
+    margin-left: auto;
 }
 
-p {
+.todo-item p {
     font-size: 15px;
     line-height: 21px;
     letter-spacing: -0.02em;
     margin-left: 15px;
-}
-
-.small_disc2 {
-    background-color: #B678FF;
-}
-
-.small_disc3 {
-    background-color: #F45E6D;
-}
-
-.small_disc4 {
-    background-color: #F45E6D;
 }
 
